@@ -1,0 +1,21 @@
+
+/* Desktop Screen Sizes */
+@media screen and (min-width: 1084px) and (max-width:1440px){
+html {
+    max-width: 1440px;
+}
+}
+/* Laptop Screen Sizes */
+@media screen and (min-width:391px) and (max-width:1083px){
+html {
+    max-width: 1083px;
+}
+}
+
+
+/* Mobile Screen Sizes */
+@media only screen and (max-width:390px){
+html {
+    max-width: 390px;
+}
+}
