@@ -785,4 +785,16 @@ html {
     bottom: 205px;
     left: 125px;
 }
+.footer-hr {
+    position: relative;
+    bottom: 165px;
+    width: 300px;
+    left: 25px;
+    opacity: 15%;
+}
+.footer-copyright {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+}
 }
