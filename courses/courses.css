@@ -561,7 +561,110 @@ html {
         opacity: 15%;
     }
 }
+/* Front-End Web Development Begins Here */
+.web-designframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+    margin-top: 15px;
+   
+}
+.web-designdescription {
+    width: 280px;
+}
+.web-viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
 
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.web-weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.web-difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 80px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.web-authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
 }
 
+/* Curriculum Starts Here */
+.web-curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.web-curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.web-curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.web-hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
 }
