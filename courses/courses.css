@@ -38,6 +38,838 @@ html {
 .laptoponly {
     display: block;
 }
+.hr {
+    color: rgba(197, 197, 197, 0.493);
+}
+html {
+    background-color:#F7F7F8 ;
+    max-width: 390px;
+    font-size: small;
+    padding-left: 5px;
+}
+
+.mobileonly {
+    display: block;
+}
+
+.span {
+    max-width: 390px !important;
+    width: 100%;
+}
+.hr {
+    color: rgba(197, 197, 197, 0.493);
+}
+
+/* Header Section Homepage Mobile */
+.salesheader {
+    border-radius: 6px;
+    width: 300px;
+    padding-bottom: 1px;
+    margin: 5px;
+    background-color: #ff9500;
+    color: white;
+    text-align: center;
+
+    p{
+        position: relative;
+        top: 7px;
+    }
+}
+.logo {
+    position: relative;
+    left: 5px;
+    margin-top: 15px;
+}
+.signupbutton {
+    position: relative;
+    text-align: center;
+    right: 5px;
+    bottom: 45px;
+    margin-top: 15px;
+}
+
+.loginbutton {
+    position: relative;
+    bottom: 80px;
+    left: 210px;
+    border-radius: 6px;
+    background-color: #ff9500;
+    height: 25px;
+    width: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: white;
+    
+    p{
+        position: relative;
+        left: 5px;
+        bottom: 10px;
+    }
+}
+.dropdownnavigation {
+    position: relative;
+    bottom: 115px;
+    left: 270px;
+}
+.hr-header{
+    position: relative;
+    bottom: 100px;
+    left: 13px;
+    opacity: 15%;
+    width: 280px;
+}
+.title {
+    position: relative;
+    width: 300px;
+    bottom: 60px;
+}
+.pagedescription {
+    position: relative;
+    width: 300px;
+    bottom: 60px;
+}
+.hr-header1 {
+    position: relative;
+    opacity: 15%;
+    width: 280px;
+    left: 13px;
+    bottom: 50px;
+}
+/* Web Design Section Begins Here */
+.webdesignframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+}
+.webdesigndescription {
+    width: 280px;
+}
+.viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
+
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Curriculum Starts Here */
+.curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
+
+/* UI/UX Design Starts Here */
+.ux-designframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+    margin-top: 15px;
+   
+}
+.ux-designdescription {
+    width: 280px;
+}
+.ux-viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
+
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.ux-weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.ux-difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.ux-authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Curriculum Starts Here */
+.ux-curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.ux-curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.ux-curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.ux-curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.ux-curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.ux-curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.ux-curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.ux-hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
+/* Mobile App Development Starts Here */
+.ma-designframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+    margin-top: 15px;
+   
+}
+.ma-designdescription {
+    width: 280px;
+}
+.ma-viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
+
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.ma-weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.ma-difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 80px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.ma-authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Curriculum Starts Here */
+.ma-curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.ma-curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.ma-curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.ma-curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.ma-curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.ma-curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.ma-curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.ma-hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
+/* Graphic Design for Beginners Starts Here */
+.gd-designframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+    margin-top: 15px;
+   
+}
+.gd-designdescription {
+    width: 280px;
+}
+.gd-viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
+
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.gd-weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.gd-difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 80px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.gd-authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Curriculum Starts Here */
+.gd-curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.gd-curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.gd-curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.gd-curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.gd-curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.gd-curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.gd-curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.gd-hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
+/* Front-End Web Development Begins Here */
+.web-designframe {
+    background-color: white;
+    width: 300px;
+    padding: 4px;
+    padding-left: 5px;
+    border-radius: 6px;
+    height: 880px;
+    margin-top: 15px;
+   
+}
+.web-designdescription {
+    width: 280px;
+}
+.web-viewcoursebutton {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 20px;
+    bottom: -2px;
+    left: 10px;
+    border-radius: 4px;
+
+    h4 {
+        position: relative;
+        left: 8px;
+        bottom: 15px;
+    }
+}
+.web-weeksneeded {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 65px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.web-difficulty {
+    position: relative;
+    background-color: #F7F7F8;
+    border: 1px solid grey;
+    width: 80px;
+    height: 30px;
+    bottom: 22px;
+    left: 85px;
+    border-radius: 4px;
+
+    p {
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+    }
+}
+.web-authorsname {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+/* Curriculum Starts Here */
+.web-curriculum-container {
+    border:1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 4px;
+    width: 280px;
+
+}
+.web-curriculum-header {
+    position: relative;
+    left: 15px;
+
+}
+.web-curriculum-01 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-02 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-03 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-04 {
+    position: relative;
+    left: 15px;
+}
+.web-curriculum-05 {
+    position: relative;
+    left: 15px;
+}
+.web-hr-curruculum-1 {
+    hr {
+        opacity: 15%;
+    }
+}
+
+/* footer begins here */
+.footer-background {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+}
+.footer-home-list {
+    li {
+        list-style-type: none;
+    }
+}
+.footer-aboutus-list {
+    li {
+        list-style-type: none;
+    }
+}
+.footer-home-header {
+    position: relative;
+    left: 40px;
+}
+.footer-homesection {
+    position: relative;
+    bottom: 35px;
+    right: 15px;
+}
+.footer-aboutus-header {
+    position: relative;
+    left: 40px;
+}
+.footer-aboutussection {
+    position: relative;
+    left: 110px;
+    bottom: 140px;
+}
+.footer-email {
+    position: relative;
+    left: 25px;
+    top: 48px;
+}
+.footer-company-email {
+    position: relative;
+    left: 65px;
+    top: 15px;
+}
+.footer-company-phone {
+    position: relative;
+    bottom: 15px;
+    left: 62px;
+}
+.footer-phone {
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+.footer-map {
+    position: relative;
+    left: 28px;
+    bottom: 5px;
+}
+.footer-company-map {
+    position: relative;
+    left: 65px;
+    bottom: 40px;
+}
+.footer-logo {
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+.footer-socialprofiles-header {
+    position: relative;
+    bottom: 120px;
+    left: 25px;
+}
+.footer-twitter {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-twitter-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 165px;
+    left: 75px;
+}
+.footer-facebook {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-facebook-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 125px;
+    left: 25px;
+}
+.footer-indeed {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-indeed-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 205px;
+    left: 125px;
+}
+.footer-hr {
+    position: relative;
+    bottom: 165px;
+    width: 300px;
+    left: 25px;
+    opacity: 15%;
+}
+.footer-copyright {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+}
+}
+/* Header Section Homepage Mobile */
+.salesheader {
+    border-radius: 6px;
+    width: 1000px;
+    padding-bottom: 1px;
+    margin: 5px;
+    background-color: #ff9500;
+    color: white;
+    text-align: center;
+
+    p{
+        position: relative;
+        top: 7px;
+    }
+}
+.logo {
+    position: relative;
+    left: 5px;
+    margin-top: 15px;
+}
+.signupbutton {
+    position: relative;
+    text-align: center;
+    right: 5px;
+    bottom: 45px;
+    margin-top: 15px;
+}
+
+.loginbutton {
+    position: relative;
+    bottom: 80px;
+    left: 210px;
+    border-radius: 6px;
+    background-color: #ff9500;
+    height: 25px;
+    width: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: white;
+    
+    p{
+        position: relative;
+        left: 5px;
+        bottom: 10px;
+    }
+}
+.dropdownnavigation {
+    position: relative;
+    bottom: 115px;
+    left: 270px;
+}
+.hr-header{
+    position: relative;
+    bottom: 100px;
+    left: 13px;
+    opacity: 15%;
+    width: 280px;
+}
+.title {
+    position: relative;
+    width: 300px;
+    bottom: 60px;
+}
+.pagedescription {
+    position: relative;
+    width: 300px;
+    bottom: 60px;
+}
+.hr-header1 {
+    position: relative;
+    opacity: 15%;
+    width: 280px;
+    left: 13px;
+    bottom: 50px;
+}
 }
 
 
