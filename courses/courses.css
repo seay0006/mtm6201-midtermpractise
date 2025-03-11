@@ -738,4 +738,51 @@ html {
     top: 35px;
     left: 15px;
 }
+.footer-socialprofiles-header {
+    position: relative;
+    bottom: 120px;
+    left: 25px;
+}
+.footer-twitter {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-twitter-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 165px;
+    left: 75px;
+}
+.footer-facebook {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-facebook-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 125px;
+    left: 25px;
+}
+.footer-indeed {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.footer-indeed-background {
+    position: relative;
+    background-color:#F7F7F8 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    bottom: 205px;
+    left: 125px;
+}
 }
