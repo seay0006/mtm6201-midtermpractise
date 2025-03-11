@@ -667,28 +667,32 @@ html {
         opacity: 15%;
     }
 }
+
 /* footer begins here */
 .footer-background {
     background-color: white;
     width: 100%;
-    height: 400px;
+    height: 500px;
     margin-top: 25px;
 }
-.footer-home-list
+.footer-home-list {
     li {
         list-style-type: none;
     }
 }
-.footer-aboutus-list 
+.footer-aboutus-list {
     li {
         list-style-type: none;
     }
+}
 .footer-home-header {
     position: relative;
     left: 40px;
 }
 .footer-homesection {
     position: relative;
+    bottom: 35px;
+    right: 15px;
 }
 .footer-aboutus-header {
     position: relative;
@@ -697,5 +701,41 @@ html {
 .footer-aboutussection {
     position: relative;
     left: 110px;
-    bottom: 90px;
+    bottom: 140px;
+}
+.footer-email {
+    position: relative;
+    left: 25px;
+    top: 48px;
+}
+.footer-company-email {
+    position: relative;
+    left: 65px;
+    top: 15px;
+}
+.footer-company-phone {
+    position: relative;
+    bottom: 15px;
+    left: 62px;
+}
+.footer-phone {
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+.footer-map {
+    position: relative;
+    left: 28px;
+    bottom: 5px;
+}
+.footer-company-map {
+    position: relative;
+    left: 65px;
+    bottom: 40px;
+}
+.footer-logo {
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
 }
