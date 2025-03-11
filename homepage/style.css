@@ -1,0 +1,15 @@
+
+/* determining responsive web design - desktop */
+@media screen and (min-width: 1084px) and (max-width:1440px){
+
+}
+
+/* determining responsive web design - laptop */
+@media screen and (min-width:391px) and (max-width:1083px){
+
+}
+
+/* determining responsive web design - mobile */
+@media screen and (min-width: 1px) and (max-width:390px){
+    
+}
